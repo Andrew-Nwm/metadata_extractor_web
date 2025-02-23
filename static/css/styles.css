@@ -11,7 +11,7 @@ body.dark-theme {
 }
 
 h1 {
-    color: #bb86fc;
+    color: #007bff; /* Cambiado de #bb86fc a #007bff */
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .form-label {
-    color: #bb86fc;
+    color: #007bff; /* Cambiado de #8698fc a #007bff */
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
 }
@@ -49,12 +49,12 @@ h1 {
 }
 
 .form-control:focus {
-    border-color: #bb86fc;
-    box-shadow: 0 0 0 0.2rem rgba(187, 134, 252, 0.25);
+    border-color: #007bff; /* Cambiado de #bb86fc a #007bff */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Cambiado de rgba(187, 134, 252, 0.25) a rgba(0, 123, 255, 0.25) */
 }
 
 .btn-primary {
-    background-color: #6a1b9a;
+    background-color: #007bff; /* Cambiado de #6a1b9a a #007bff */
     border: none;
     border-radius: 5px;
     padding: 0.75rem;
@@ -63,7 +63,7 @@ h1 {
 }
 
 .btn-primary:hover {
-    background-color: #4a148c;
+    background-color: #0056b3; /* Cambiado de #09f a #0056b3 */
 }
 
 #result {
